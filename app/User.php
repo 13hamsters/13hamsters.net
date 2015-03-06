@@ -1,4 +1,4 @@
-<?php namespace 13hamsters;
+<?php namespace hamsterNet;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

@@ -1,4 +1,4 @@
-<?php namespace 13hamsters\Providers;
+<?php namespace hamsterNet\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

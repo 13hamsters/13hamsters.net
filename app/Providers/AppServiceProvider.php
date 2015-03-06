@@ -1,4 +1,4 @@
-<?php namespace 13hamsters\Providers;
+<?php namespace hamsterNet\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -27,7 +27,7 @@ class AppServiceProvider extends ServiceProvider {
 	{
 		$this->app->bind(
 			'Illuminate\Contracts\Auth\Registrar',
-			'13hamsters\Services\Registrar'
+			'hamsterNet\Services\Registrar'
 		);
 	}
 

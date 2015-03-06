@@ -1,4 +1,4 @@
-<?php namespace 13hamsters\Events;
+<?php namespace hamsterNet\Events;
 
 abstract class Event {
 

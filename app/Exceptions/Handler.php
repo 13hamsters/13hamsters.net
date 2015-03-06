@@ -1,4 +1,4 @@
-<?php namespace 13hamsters\Exceptions;
+<?php namespace hamsterNet\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

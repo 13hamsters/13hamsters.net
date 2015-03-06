@@ -1,4 +1,4 @@
-<?php namespace 13hamsters\Commands;
+<?php namespace hamsterNet\Commands;
 
 abstract class Command {
 

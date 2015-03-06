@@ -1,4 +1,4 @@
-<?php namespace 13hamsters\Providers;
+<?php namespace hamsterNet\Providers;
 
 use Illuminate\Bus\Dispatcher;
 use Illuminate\Support\ServiceProvider;
@@ -16,7 +16,7 @@ class BusServiceProvider extends ServiceProvider {
 		$dispatcher->mapUsing(function($command)
 		{
 			return Dispatcher::simpleMapping(
-				$command, '13hamsters\Commands', '13hamsters\Handlers\Commands'
+				$command, 'hamsterNet\Commands', 'hamsterNet\Handlers\Commands'
 			);
 		});
 	}

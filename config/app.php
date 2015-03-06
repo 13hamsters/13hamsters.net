@@ -139,11 +139,11 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'13hamsters\Providers\AppServiceProvider',
-		'13hamsters\Providers\BusServiceProvider',
-		'13hamsters\Providers\ConfigServiceProvider',
-		'13hamsters\Providers\EventServiceProvider',
-		'13hamsters\Providers\RouteServiceProvider',
+		'hamsterNet\Providers\AppServiceProvider',
+		'hamsterNet\Providers\BusServiceProvider',
+		'hamsterNet\Providers\ConfigServiceProvider',
+		'hamsterNet\Providers\EventServiceProvider',
+		'hamsterNet\Providers\RouteServiceProvider',
 
 	],
 

@@ -1,4 +1,4 @@
-<?php namespace 13hamsters\Providers;
+<?php namespace hamsterNet\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -12,7 +12,7 @@ class RouteServiceProvider extends ServiceProvider {
 	 *
 	 * @var string
 	 */
-	protected $namespace = '13hamsters\Http\Controllers';
+	protected $namespace = 'hamsterNet\Http\Controllers';
 
 	/**
 	 * Define your route model bindings, pattern filters, etc.

@@ -28,17 +28,17 @@ $app = new Illuminate\Foundation\Application(
 
 $app->singleton(
 	'Illuminate\Contracts\Http\Kernel',
-	'13hamsters\Http\Kernel'
+	'hamsterNet\Http\Kernel'
 );
 
 $app->singleton(
 	'Illuminate\Contracts\Console\Kernel',
-	'13hamsters\Console\Kernel'
+	'hamsterNet\Console\Kernel'
 );
 
 $app->singleton(
 	'Illuminate\Contracts\Debug\ExceptionHandler',
-	'13hamsters\Exceptions\Handler'
+	'hamsterNet\Exceptions\Handler'
 );
 
 /*

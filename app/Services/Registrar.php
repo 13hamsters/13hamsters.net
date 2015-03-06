@@ -1,6 +1,6 @@
-<?php namespace 13hamsters\Services;
+<?php namespace hamsterNet\Services;
 
-use 13hamsters\User;
+use hamsterNet\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 

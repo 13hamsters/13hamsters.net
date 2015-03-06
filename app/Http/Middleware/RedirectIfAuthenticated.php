@@ -1,4 +1,4 @@
-<?php namespace 13hamsters\Http\Middleware;
+<?php namespace hamsterNet\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

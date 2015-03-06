@@ -1,4 +1,4 @@
-<?php namespace 13hamsters\Console\Commands;
+<?php namespace hamsterNet\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

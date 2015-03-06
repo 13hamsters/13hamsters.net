@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: 13hamsters
-        psr4_prefix: 13hamsters
+        namespace: hamsterNet
+        psr4_prefix: hamsterNet
         src_path: app

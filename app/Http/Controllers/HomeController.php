@@ -1,4 +1,4 @@
-<?php namespace 13hamsters\Http\Controllers;
+<?php namespace hamsterNet\Http\Controllers;
 
 class HomeController extends Controller {
 

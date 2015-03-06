@@ -1,4 +1,4 @@
-<?php namespace 13hamsters\Http;
+<?php namespace hamsterNet\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -15,7 +15,7 @@ class Kernel extends HttpKernel {
 		'Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse',
 		'Illuminate\Session\Middleware\StartSession',
 		'Illuminate\View\Middleware\ShareErrorsFromSession',
-		'13hamsters\Http\Middleware\VerifyCsrfToken',
+		'hamsterNet\Http\Middleware\VerifyCsrfToken',
 	];
 
 	/**
@@ -24,9 +24,9 @@ class Kernel extends HttpKernel {
 	 * @var array
 	 */
 	protected $routeMiddleware = [
-		'auth' => '13hamsters\Http\Middleware\Authenticate',
+		'auth' => 'hamsterNet\Http\Middleware\Authenticate',
 		'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
-		'guest' => '13hamsters\Http\Middleware\RedirectIfAuthenticated',
+		'guest' => 'hamsterNet\Http\Middleware\RedirectIfAuthenticated',
 	];
 
 }

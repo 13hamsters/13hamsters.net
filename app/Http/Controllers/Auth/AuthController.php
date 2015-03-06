@@ -1,6 +1,6 @@
-<?php namespace 13hamsters\Http\Controllers\Auth;
+<?php namespace hamsterNet\Http\Controllers\Auth;
 
-use 13hamsters\Http\Controllers\Controller;
+use hamsterNet\Http\Controllers\Controller;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\Registrar;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
